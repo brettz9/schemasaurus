@@ -1,3 +1,12 @@
+# Brett's to-dos toward modifying the [original schemasaurus](https://github.com/AlexeyGrishin/schemasaurus)
+
+1. Change into a pull parser/query tool so one does not need to iterate through the whole data file.
+2. Apply for the following use cases:
+    1. a default display of a JSON file similar to [JHTML](https://github.com/brettz9/jhtml), but JSON Schema-aware (e.g., displaying not only arrays as lists, strings within a bordered area, etc., but also URLs as links, HTML within an iframe preview, etc.)
+    1. type-aware editing of a JSON file (similar to [JSONEditor](https://github.com/jdorn/json-editor/)) or a subset/joins of JSON files
+    1. type-aware (and hierarchy-aware) default search options for arbitrary JSON (e.g., exposing a date range UI when detecting date types--for refining one's search to branches of a data file which included date types of a certain range)
+    1. enhancing [JSONPath](https://github.com/brettz9/JSONPath) to be schema-aware (e.g., allowing for a single path expression to find all URL instances in a file)
+
 [![Build Status](https://travis-ci.org/AlexeyGrishin/schemasaurus.png?branch=master)](https://travis-ci.org/AlexeyGrishin/schemasaurus)
 [![Coverage Status](https://coveralls.io/repos/AlexeyGrishin/schemasaurus/badge.svg?branch=master)](https://coveralls.io/r/AlexeyGrishin/schemasaurus?branch=master)
 [![Code Climate](https://codeclimate.com/github/AlexeyGrishin/schemasaurus/badges/gpa.svg)](https://codeclimate.com/github/AlexeyGrishin/schemasaurus)
